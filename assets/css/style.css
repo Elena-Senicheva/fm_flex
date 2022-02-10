@@ -59,8 +59,7 @@ a.link {
 }
 
 /*---------------------page.html------------*/
-
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -71,17 +70,59 @@ a.link {
   margin: 10px;
   padding: 10px;
 }
-.container>*{
+.container > * {
   flex-grow: 0.5;
 }
-.event-name{
-margin: 10px 0;
-margin-left: auto;
+.header-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(64, 66, 66);
+  color: azure;
+  font-family: san-serif;
 }
-.event-date{
+.header-page > * {
+  margin: 5px 0;
+}
+.logo-page {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.nav-page ul {
+  list-style: none;
+}
+.nav-page li {
+  display: inline-block;
+}
+
+.nav-page a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header-btn {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.event-name {
+  margin: 10px 0;
+  margin-left: auto;
+}
+.event-date {
   text-align: right;
 }
-.inner{
+.inner {
   display: inline-block;
   text-align: center;
 }
